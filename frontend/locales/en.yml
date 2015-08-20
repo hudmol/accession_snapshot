@@ -1,0 +1,4 @@
+en:
+  plugins:
+    accession_snapshot:
+      button: Download Snapshot

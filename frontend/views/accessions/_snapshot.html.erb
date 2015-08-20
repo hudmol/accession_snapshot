@@ -1,0 +1,4 @@
+<div id="template_accession_snapshot_button"><!--
+  <%= link_to I18n.t("plugins.accession_snapshot.button"), {:controller => :accession_snapshot, :action => :download, :id => @accession.id}, {:class => "btn btn-sm btn-default pull-right btn-accession-snapshot"} %>
+--></div>
+<%= javascript_include_tag "#{AppConfig[:frontend_prefix]}assets/accession_snapshot.js" %>
